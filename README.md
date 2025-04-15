@@ -59,7 +59,7 @@ All vehicle objects are stored in a single `List<Vehicle>`. During display, Java
 ```java
 for (Vehicle v : vehicles) {
     System.out.println("\nVehicle Type: " + v.getClass().getSimpleName());
-    v.displayDetails(); // Automatically calls subclass method
+    v.displayDetails(); 
 }
 === VEHICLE DETAILS ===
 
@@ -85,9 +85,17 @@ Total Vehicles Registered: 3
 
 ---
 
-📌 **To use it**:
-1. Create a file in your repository named `README.md`
-2. Paste the content above
-3. Commit the file and push it to GitHub
+## 📌 Note
 
-Want to include screenshots or icons? I can help with that too!
+This project is for educational purposes and currently runs in a console-based environment. GUI and database integration can be added as future improvements.
+
+## ✍️ Author
+
+Melkamu Tsegaye Tamir  
+📧 melktsega77@gmail.com  
+📍 Addis Ababa, Ethiopia
+
+---
+
+⭐ Star this repository if you found it helpful!
+
